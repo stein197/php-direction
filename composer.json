@@ -1,0 +1,21 @@
+{
+    "name": "stein197/direction",
+    "description": "Enum-like simple direction class",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nail Gafarov",
+            "email": "nil20122013@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"Stein197\\": "src/"
+		}
+	},
+	"keywords": [
+		"direction", "enum"
+	]
+}
