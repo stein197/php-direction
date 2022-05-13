@@ -1,15 +1,19 @@
-# PHP direction enum class
-This simple package contains only single final class `Stein197\Direction` that contains only four public constants: `UP`, `RIGHT`, `DOWN` and `LEFT`. They could be used in various ways, for example trimming a string based on the const:
+# PHP direction enum
+This simple package contains only single enum `Stein197\Direction` that contains only four cases: `UP`, `RIGHT`, `DOWN` and `LEFT`. They could be used in various ways, for example trimming a string based on the const:
+
 ```php
-if ($dir === Direction::LEFT)
+if ($dir === Direction::Left)
 	ltrim($string);
 ```
+
 Cases could also be masked:
+
 ```php
-Direction::TOP | Direction::BOTTOM;
+Direction::Top->value | Direction::Bottom->value;
 ```
-Insall the package via composer:
-```bash
+
+## Installation:
+Via composer:
+```
 composer require stein197/direction
 ```
-To get more info read the documentation in corresponding docblocks.

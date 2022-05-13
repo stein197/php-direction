@@ -1,6 +1,6 @@
 {
     "name": "stein197/direction",
-    "description": "Enum-like simple direction class",
+    "description": "Enum for directions",
     "type": "library",
     "license": "MIT",
     "authors": [
